@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.main{
+overflow: hidden;
+position: fixed;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 1%;
+  box-shadow: #070707;
+  justify-content:flex-start;
+}
+
+.top-nav{
+  height: 10vh;
+  width: 100vw;
+  background-color: #b9b8b8;
+  position: fixed;
+  margin-top: -1%;
+}
+
+.folder{
+  padding: 5px;
+  cursor: pointer;
+  padding-bottom: 9%;
+  height: 73vh;
+  width: 15vw;
+  margin-left: 5%;
+  border-radius: 2%;
+  margin-top: 3%;
+  color: rgb(10, 10, 10);
+  border-inline-end-color: #FFFFFF;
+  overflow: scroll;
+}
+
+.items{
+  padding: 5px;
+  cursor: pointer;
+  padding-bottom: 9%;
+  width: 40vh;
+  height: 77vh;
+  border-radius: 1%;
+  margin-top: 1%;
+  color: black;
+  overflow: scroll;
+  margin-left: 2%;
+}
+
+.item-details {
+  padding: 5px;
+  cursor: pointer;
+  padding-bottom: 9%;
+  height: 69%;
+  border-radius: 1%;
+  margin-top: 1%;
+  width: 100vh;
+  color: black;
+  overflow: scroll;
+}
+
+.gmail{
+  background-color: rgb(12, 12, 235);
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  border-radius: 3%;
+  width: 60%;
+  font-family: cursive;
+  margin-top: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+.input{
+  background-color: whitesmoke;
+  color: rgb(4, 126, 234);
+  border-radius: 2;
+  font-family: cursive;
+  box-shadow: none;
+  position: fixed;
+  margin-top: -1.0%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul.no-bullets {
+  list-style-type: none;
+}
+
+.form input{
+height: 30vh;
+width: 30vw;
 }
